@@ -1,0 +1,19 @@
+{
+    "name": "thoughtco/simple-commerce-nav",
+    "autoload": {
+        "psr-4": {
+            "Thoughtco\\SimpleCommerceNav\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Restrict Fields",
+            "description": "This is a Statamic addon that groups all your Simple Commerce collections into one sidebar group."
+        },
+        "laravel": {
+            "providers": [
+                "Thoughtco\\SimpleCommerceNav\\ServiceProvider"
+            ]
+        }
+    }
+}
