@@ -2,9 +2,9 @@
 
 namespace Thoughtco\SimpleCommerceNav;
 
+use Statamic;
 use Statamic\Facades\CP\Nav;
 use Statamic\Providers\AddonServiceProvider;
-use Statamic\Statamic;
 
 class ServiceProvider extends AddonServiceProvider
 {
